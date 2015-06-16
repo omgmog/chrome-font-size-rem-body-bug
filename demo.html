@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="/nothere">
+  <style>
+    html {
+      font-size: 14px;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>What is this trickery?</h1>
+  <p>I presume that delaying the CSSOM by having a failed or mis-delivered Stylesheet causes Chrome to calculate what <code>1rem</code> is incorrectly. This seems to only effect the <code>body</code> element, and can be gotten around by using <code>1em</code> on body. But that just hides the issue.</p>
+  <h2>Some facts</h2>
+  <p>The font-size on <code>html</code> is 14px.</p>
+  <p>The font-size on <code>body</code> is 1rem.</p>
+  <p>Chrome is rendering the font-size of <code>body</code> as 16px.</p>
+  </body>
+</html>
