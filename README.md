@@ -14,7 +14,7 @@ Annoyingly this can be intermittent, so you'll need to have the devtools open wh
 
 ## See it in action:
 
-[Demo](https://blog.omgmog.net/chrome-font-size-rem-body-bug)
+[Demo](https://blog.omgmog.net/chrome-font-size-rem-body-bug/demo.html)
 
 ## Screenshots
 ![](http://i.imgur.com/iXtVRUM.png)
